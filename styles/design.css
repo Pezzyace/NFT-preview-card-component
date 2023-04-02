@@ -1,0 +1,191 @@
+p{
+  font-family: 'Outfit', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+} 
+.page{
+  width: 310px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(214, 51%, 10%);
+  margin: 70px 0px 10px 0px;
+  height: 490px;
+}
+.bg{
+  background-color: hsl(215, 55%, 9%);
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  height: 440px;
+}
+.body{
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 230px;
+  margin: -30px 0px 0px 0px;
+  padding: 15px 15px 20px 15px;
+  border-radius: 8px;
+}
+
+.pic{
+  background: url("../images/image-equilibrium.jpg") no-repeat;
+  width: 230px;
+  height: 230px;
+  background-size: contain;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.pic:hover .hover{
+  display: flex;
+}
+.hover{
+  background: rgba(0, 255, 247, 0.5);
+  height: 230px;
+  border-radius: 5px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.info{
+  width: 230px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-comment{
+  font-size: 15px;
+  color: white;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.top-comment:hover{
+  color: rgb(0, 255, 247);
+}
+.middle-comment{
+  font-size: 13px;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 20px;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.crypto{
+  color: hsl(178, 100%, 50%);
+  margin-left: 7px;
+  font-size: 13px;
+}
+.right{
+  display: flex;
+  align-items: center;
+}
+.days{
+  font-size: 13px;
+  margin-left: 7px;
+  color: hsl(215, 51%, 70%);
+}
+.line{
+  display: flex;
+  justify-content: center;
+  color: hsl(215, 32%, 27%);
+  height: 5px;
+  margin-bottom: 22px;
+}
+.creator-tab{
+  display: flex;
+  align-items: center;
+}
+.images{
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+}
+.img{
+  height: 20px;
+}
+.creator{
+  font-size: 12px;
+  margin-left: 10px;
+  color: hsl(215, 51%, 70%);
+}
+.name{
+  color: white;
+  margin-left: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.name:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px){
+
+  .page{
+    background-color: hl(217, 54%, 11%);
+    width: 375px;
+    height: 570px;
+    margin-top: 10px;
+  }
+  .bg{
+    width: 360px;
+    height: 520px;
+  }
+  .body{
+    width: 300px;
+  }
+  .pic{
+    width: 290px;
+    height: 290px;
+  }
+  .info{
+    width: 280px;
+  }
+  .middle-comment{
+    width: 270px;
+  }
+  .img{
+    width: 30px;
+    height: 30px;
+  }
+  p{
+    font-size: 15px;
+  }
+  .line1{
+    font-size: 19.3px;
+  }
+  .hover{
+    height: 290px;
+  }
+}
